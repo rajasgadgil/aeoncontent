@@ -1,0 +1,227 @@
+#theta-crousel-invalid-postid {
+  color: red;
+}
+.theta-carousel .slide-inner-title {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.theta-carousel .theta-carousel-item {
+  text-align: center;
+}
+.theta-carousel.image .theta-carousel-item.wide,
+.theta-carousel.image .theta-carousel-item.wide img {
+  width: 600px;
+}
+.theta-carousel.image .theta-carousel-item.tall,
+.theta-carousel.image .theta-carousel-item.tall img {
+  height: 480px;
+}
+.theta-carousel.image .theta-carousel-item.square,
+.theta-carousel.image .theta-carousel-item.square img {
+  height: 430px;
+}
+.theta-carousel.image_text_common_top .theta-carousel-item.wide,
+.theta-carousel.image_text_common_bottom .theta-carousel-item.wide,
+.theta-carousel.image_text_common_top .theta-carousel-item.wide img,
+.theta-carousel.image_text_common_bottom .theta-carousel-item.wide img {
+  width: 600px;
+}
+.theta-carousel.image_text_common_top .theta-carousel-item.tall,
+.theta-carousel.image_text_common_bottom .theta-carousel-item.tall,
+.theta-carousel.image_text_common_top .theta-carousel-item.tall img,
+.theta-carousel.image_text_common_bottom .theta-carousel-item.tall img {
+  height: 480px;
+}
+.theta-carousel.image_text_common_top .theta-carousel-item.square,
+.theta-carousel.image_text_common_bottom .theta-carousel-item.square,
+.theta-carousel.image_text_common_top .theta-carousel-item.square img,
+.theta-carousel.image_text_common_bottom .theta-carousel-item.square img {
+  height: 430px;
+}
+.theta-carousel.image_text_top .theta-carousel-item.wide img,
+.theta-carousel.image_text_bottom .theta-carousel-item.wide img {
+  width: 540px;
+}
+.theta-carousel.image_text_top .theta-carousel-item.tall img,
+.theta-carousel.image_text_bottom .theta-carousel-item.tall img {
+  height: 410px;
+}
+.theta-carousel.image_text_top .theta-carousel-item.square img,
+.theta-carousel.image_text_bottom .theta-carousel-item.square img {
+  height: 400px;
+}
+.theta-carousel-outer-container .slide-outer-title {
+  text-align: center;
+}
+.theta-carousel-outer-container .parabola .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .parabola .theta-current-item .slide-inner-title {
+  visibility: visible;
+}
+.theta-carousel-outer-container .parabola.theta-in-motion .theta-current-item .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .invert_rotation .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .invert_rotation .theta-current-item .slide-inner-title {
+  visibility: visible;
+}
+.theta-carousel-outer-container .invert_rotation.theta-in-motion .theta-current-item .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .line_left .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .line_left .theta-current-item .slide-inner-title {
+  visibility: visible;
+}
+.theta-carousel-outer-container .line_left.theta-in-motion .theta-current-item .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .line_popout .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .line_popout .theta-current-item .slide-inner-title {
+  visibility: visible;
+}
+.theta-carousel-outer-container .line_popout.theta-in-motion .theta-current-item .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .cubical_parabola .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .cubical_parabola .theta-current-item .slide-inner-title {
+  visibility: visible;
+}
+.theta-carousel-outer-container .cubical_parabola.theta-in-motion .theta-current-item .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .wave .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .wave .theta-current-item .slide-inner-title {
+  visibility: visible;
+}
+.theta-carousel-outer-container .wave.theta-in-motion .theta-current-item .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .spiral .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container .spiral .theta-current-item .slide-inner-title {
+  visibility: visible;
+}
+.theta-carousel-outer-container .spiral.theta-in-motion .theta-current-item .slide-inner-title {
+  visibility: hidden;
+}
+.theta-carousel-outer-container {
+  position: relative;
+}
+.theta-carousel-outer-container .tc-button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  border-radius: 20px;
+  background: #cccccc;
+  cursor: pointer;
+  opacity: 0.5;
+  display: none;
+}
+.theta-carousel-outer-container .tc-button:hover {
+  background: #999999;
+}
+.theta-carousel-outer-container.next-prev-top .tc-button {
+  display: inherit;
+  top: 10px;
+}
+.theta-carousel-outer-container.next-prev-top #btn-next {
+  left: 52%;
+}
+.theta-carousel-outer-container.next-prev-top #btn-prev {
+  right: 52%;
+}
+.theta-carousel-outer-container.next-prev-bottom .tc-button {
+  display: inherit;
+  bottom: 10px;
+}
+.theta-carousel-outer-container.next-prev-bottom #btn-next {
+  left: 52%;
+}
+.theta-carousel-outer-container.next-prev-bottom #btn-prev {
+  right: 52%;
+}
+.theta-carousel-outer-container.next-prev-middle .tc-button {
+  display: inherit;
+  top: 50%;
+}
+.theta-carousel-outer-container.next-prev-middle #btn-next {
+  right: 10px;
+}
+.theta-carousel-outer-container.next-prev-middle #btn-prev {
+  left: 10px;
+}
+.theta-carousel-full-screen {
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 160001;
+}
+.theta-carousel-full-screen .tc-button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.theta-carousel-full-screen .tc-button:hover {
+  background: #b3b3b3;
+}
+.theta-carousel-full-screen .horisontal-button {
+  top: 50%;
+  bottom: 50%;
+}
+.theta-carousel-full-screen .navigate-prev {
+  left: 5px;
+}
+.theta-carousel-full-screen .navigate-next {
+  right: 5px;
+}
+.theta-carousel-full-screen .tc-overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  opacity: 0;
+  background-color: blue;
+}
+.theta-carousel-full-screen .tc-overlay-left {
+  right: 50%;
+  left: 0px;
+}
+.theta-carousel-full-screen .tc-overlay-right {
+  right: 0px;
+  left: 50%;
+}
+.theta-carousel-full-screen .close-button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+.theta-carousel-full-screen-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 360px;
+  background: #000;
+  opacity: 0.7;
+  z-index: 159900;
+}

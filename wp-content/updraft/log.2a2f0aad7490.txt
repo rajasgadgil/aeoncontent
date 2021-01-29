@@ -1,0 +1,637 @@
+0000.000 (0) Opened log file at time: Wed, 27 Jan 2021 04:04:27 +0000 on https://aeon.blvckpixel.com
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.0.33-0ubuntu0.16.04.16 (apache2handler, Linux ip-172-31-13-10 4.4.0-1119-aws #133-Ubuntu SMP Tue Dec 1 19:04:22 UTC 2020 x86_64) MySQL: 5.7.32-0ubuntu0.16.04.1 WPLANG: en_US Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 28.6M | 6M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 12391.7 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.017 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.025 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1611635910, seconds_ago=84357)
+0000.037 (0) Set semaphore last lock (fd) time to 2021-01-27 04:04:27
+0000.039 (0) Semaphore lock (fd) complete
+0000.051 (0) Backup run: resumption=0, nonce=2a2f0aad7490, file_nonce=2a2f0aad7490 begun at=1611720267 (0s ago), job type=backup
+0000.057 (0) Scheduling a resumption (1) after 300 seconds (1611720567) in case this run gets aborted
+0000.068 (0) Checking if we have a zip executable available
+0000.073 (0) Testing: /usr/bin/zip
+0000.080 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.085 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.088 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.092 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.095 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.102 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.106 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.114 (0) Working binary zip found: /usr/bin/zip
+0000.121 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.124 (0) Creation of backups of directories: beginning
+0000.134 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.374 (0) Total entities for the zip file: 2672 directories, 14509 files (0 skipped as non-modified), 208.5 MB
+0000.389 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.395 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.401 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.407 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.413 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.419 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.425 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.431 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.438 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.443 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 14509 files batched, 952 (952) added so far); re-opening (prior size: 0 KB)
+0001.236 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: size is now: 7.40 MB
+0001.243 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 19644.7 KB/s)
+0001.250 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.3032910823822, normalised_time=1.3031474172197, max_time=1.2467839717865, data points known=1, old_max_bytes=26214400, new_max_bytes=120697319)
+0001.257 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1000 files added (on-disk size: 7586.4 KB)
+0001.263 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1100 files added (on-disk size: 7586.4 KB)
+0001.273 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1200 files added (on-disk size: 7586.4 KB)
+0001.280 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1300 files added (on-disk size: 7586.4 KB)
+0001.286 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1400 files added (on-disk size: 7586.4 KB)
+0001.292 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1500 files added (on-disk size: 7586.4 KB)
+0001.298 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1600 files added (on-disk size: 7586.4 KB)
+0001.305 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1700 files added (on-disk size: 7586.4 KB)
+0001.311 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1800 files added (on-disk size: 7586.4 KB)
+0001.317 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 1900 files added (on-disk size: 7586.4 KB)
+0001.322 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.4 MB, 14509 files batched, 1001 (1953) added so far); re-opening (prior size: 7586.4 KB)
+0001.771 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: size is now: 10.50 MB
+0001.781 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2000 files added (on-disk size: 10745.8 KB)
+0001.787 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2100 files added (on-disk size: 10745.8 KB)
+0001.793 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2200 files added (on-disk size: 10745.8 KB)
+0001.799 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2300 files added (on-disk size: 10745.8 KB)
+0001.805 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2400 files added (on-disk size: 10745.8 KB)
+0001.812 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2500 files added (on-disk size: 10745.8 KB)
+0001.818 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2600 files added (on-disk size: 10745.8 KB)
+0001.824 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2700 files added (on-disk size: 10745.8 KB)
+0001.831 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2800 files added (on-disk size: 10745.8 KB)
+0001.837 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 2900 files added (on-disk size: 10745.8 KB)
+0001.841 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.8 MB, 14509 files batched, 1001 (2954) added so far); re-opening (prior size: 10745.8 KB)
+0002.275 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: size is now: 16.00 MB
+0002.285 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3000 files added (on-disk size: 16370.6 KB)
+0002.291 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3100 files added (on-disk size: 16370.6 KB)
+0002.297 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3200 files added (on-disk size: 16370.6 KB)
+0002.303 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3300 files added (on-disk size: 16370.6 KB)
+0002.310 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3400 files added (on-disk size: 16370.6 KB)
+0002.316 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3500 files added (on-disk size: 16370.6 KB)
+0002.322 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3600 files added (on-disk size: 16370.6 KB)
+0002.328 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3700 files added (on-disk size: 16370.6 KB)
+0002.335 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3800 files added (on-disk size: 16370.6 KB)
+0002.341 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 3900 files added (on-disk size: 16370.6 KB)
+0002.346 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.9 MB, 14509 files batched, 1001 (3955) added so far); re-opening (prior size: 16370.6 KB)
+0002.780 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4000 files added (on-disk size: 19377.2 KB)
+0002.787 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4100 files added (on-disk size: 19377.2 KB)
+0002.794 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4200 files added (on-disk size: 19377.2 KB)
+0002.800 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4300 files added (on-disk size: 19377.2 KB)
+0002.806 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4400 files added (on-disk size: 19377.2 KB)
+0002.812 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4500 files added (on-disk size: 19377.2 KB)
+0002.818 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4600 files added (on-disk size: 19377.2 KB)
+0002.824 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4700 files added (on-disk size: 19377.2 KB)
+0002.830 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4800 files added (on-disk size: 19377.2 KB)
+0002.837 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 4900 files added (on-disk size: 19377.2 KB)
+0002.842 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 14509 files batched, 1001 (4956) added so far); re-opening (prior size: 19377.2 KB)
+0003.221 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5000 files added (on-disk size: 21742.3 KB)
+0003.227 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5100 files added (on-disk size: 21742.3 KB)
+0003.233 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5200 files added (on-disk size: 21742.3 KB)
+0003.240 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5300 files added (on-disk size: 21742.3 KB)
+0003.246 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5400 files added (on-disk size: 21742.3 KB)
+0003.252 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5500 files added (on-disk size: 21742.3 KB)
+0003.259 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5600 files added (on-disk size: 21742.3 KB)
+0003.265 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5700 files added (on-disk size: 21742.3 KB)
+0003.272 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5800 files added (on-disk size: 21742.3 KB)
+0003.278 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 5900 files added (on-disk size: 21742.3 KB)
+0003.283 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.2 MB, 14509 files batched, 1001 (5957) added so far); re-opening (prior size: 21742.3 KB)
+0003.944 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: size is now: 27.20 MB
+0003.953 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6000 files added (on-disk size: 27900.2 KB)
+0003.959 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6100 files added (on-disk size: 27900.2 KB)
+0003.965 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6200 files added (on-disk size: 27900.2 KB)
+0003.972 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6300 files added (on-disk size: 27900.2 KB)
+0003.978 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6400 files added (on-disk size: 27900.2 KB)
+0003.984 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6500 files added (on-disk size: 27900.2 KB)
+0003.990 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6600 files added (on-disk size: 27900.2 KB)
+0003.996 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6700 files added (on-disk size: 27900.2 KB)
+0004.002 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6800 files added (on-disk size: 27900.2 KB)
+0004.008 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 6900 files added (on-disk size: 27900.2 KB)
+0004.013 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.8 MB, 14509 files batched, 1001 (6958) added so far); re-opening (prior size: 27900.2 KB)
+0004.652 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: size is now: 34.60 MB
+0004.662 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7000 files added (on-disk size: 35473.8 KB)
+0004.668 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7100 files added (on-disk size: 35473.8 KB)
+0004.674 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7200 files added (on-disk size: 35473.8 KB)
+0004.680 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7300 files added (on-disk size: 35473.8 KB)
+0004.686 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7400 files added (on-disk size: 35473.8 KB)
+0004.692 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7500 files added (on-disk size: 35473.8 KB)
+0004.699 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7600 files added (on-disk size: 35473.8 KB)
+0004.705 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7700 files added (on-disk size: 35473.8 KB)
+0004.711 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7800 files added (on-disk size: 35473.8 KB)
+0004.717 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 7900 files added (on-disk size: 35473.8 KB)
+0004.723 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14 MB, 14509 files batched, 1001 (7959) added so far); re-opening (prior size: 35473.8 KB)
+0005.359 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8000 files added (on-disk size: 39581.3 KB)
+0005.365 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8100 files added (on-disk size: 39581.3 KB)
+0005.371 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8200 files added (on-disk size: 39581.3 KB)
+0005.377 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8300 files added (on-disk size: 39581.3 KB)
+0005.383 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8400 files added (on-disk size: 39581.3 KB)
+0005.389 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8500 files added (on-disk size: 39581.3 KB)
+0005.396 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8600 files added (on-disk size: 39581.3 KB)
+0005.403 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8700 files added (on-disk size: 39581.3 KB)
+0005.409 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8800 files added (on-disk size: 39581.3 KB)
+0005.415 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 8900 files added (on-disk size: 39581.3 KB)
+0005.420 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.1 MB, 14509 files batched, 1001 (8960) added so far); re-opening (prior size: 39581.3 KB)
+0006.306 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9000 files added (on-disk size: 47363.4 KB)
+0006.312 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9100 files added (on-disk size: 47363.4 KB)
+0006.319 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9200 files added (on-disk size: 47363.4 KB)
+0006.325 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9300 files added (on-disk size: 47363.4 KB)
+0006.331 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9400 files added (on-disk size: 47363.4 KB)
+0006.337 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9500 files added (on-disk size: 47363.4 KB)
+0006.344 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9600 files added (on-disk size: 47363.4 KB)
+0006.350 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9700 files added (on-disk size: 47363.4 KB)
+0006.357 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9800 files added (on-disk size: 47363.4 KB)
+0006.363 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 9900 files added (on-disk size: 47363.4 KB)
+0006.369 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.8 MB, 14509 files batched, 1001 (9961) added so far); re-opening (prior size: 47363.4 KB)
+0006.776 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10000 files added (on-disk size: 50935.2 KB)
+0006.782 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10100 files added (on-disk size: 50935.2 KB)
+0006.788 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10200 files added (on-disk size: 50935.2 KB)
+0006.794 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10300 files added (on-disk size: 50935.2 KB)
+0006.800 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10400 files added (on-disk size: 50935.2 KB)
+0006.807 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10500 files added (on-disk size: 50935.2 KB)
+0006.813 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10600 files added (on-disk size: 50935.2 KB)
+0006.819 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10700 files added (on-disk size: 50935.2 KB)
+0006.825 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10800 files added (on-disk size: 50935.2 KB)
+0006.831 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 10900 files added (on-disk size: 50935.2 KB)
+0006.837 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.2 MB, 14509 files batched, 1001 (10962) added so far); re-opening (prior size: 50935.2 KB)
+0007.243 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11000 files added (on-disk size: 53183.1 KB)
+0007.250 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11100 files added (on-disk size: 53183.1 KB)
+0007.256 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11200 files added (on-disk size: 53183.1 KB)
+0007.262 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11300 files added (on-disk size: 53183.1 KB)
+0007.268 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11400 files added (on-disk size: 53183.1 KB)
+0007.275 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11500 files added (on-disk size: 53183.1 KB)
+0007.281 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11600 files added (on-disk size: 53183.1 KB)
+0007.287 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11700 files added (on-disk size: 53183.1 KB)
+0007.294 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11800 files added (on-disk size: 53183.1 KB)
+0007.300 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 11900 files added (on-disk size: 53183.1 KB)
+0007.305 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (30.5 MB, 14509 files batched, 1001 (11963) added so far); re-opening (prior size: 53183.1 KB)
+0008.695 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12000 files added (on-disk size: 61844.8 KB)
+0008.702 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12100 files added (on-disk size: 61844.8 KB)
+0008.708 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12200 files added (on-disk size: 61844.8 KB)
+0008.714 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12300 files added (on-disk size: 61844.8 KB)
+0008.720 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12400 files added (on-disk size: 61844.8 KB)
+0008.727 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12500 files added (on-disk size: 61844.8 KB)
+0008.733 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12600 files added (on-disk size: 61844.8 KB)
+0008.739 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12700 files added (on-disk size: 61844.8 KB)
+0008.745 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12800 files added (on-disk size: 61844.8 KB)
+0008.751 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 12900 files added (on-disk size: 61844.8 KB)
+0008.756 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.4 MB, 14509 files batched, 1001 (12964) added so far); re-opening (prior size: 61844.8 KB)
+0009.307 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13000 files added (on-disk size: 64829.8 KB)
+0009.314 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13100 files added (on-disk size: 64829.8 KB)
+0009.320 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13200 files added (on-disk size: 64829.8 KB)
+0009.326 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13300 files added (on-disk size: 64829.8 KB)
+0009.333 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13400 files added (on-disk size: 64829.8 KB)
+0009.339 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13500 files added (on-disk size: 64829.8 KB)
+0009.345 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13600 files added (on-disk size: 64829.8 KB)
+0009.353 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13700 files added (on-disk size: 64829.8 KB)
+0009.359 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13800 files added (on-disk size: 64829.8 KB)
+0009.366 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 13900 files added (on-disk size: 64829.8 KB)
+0009.371 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.1 MB, 14509 files batched, 1001 (13965) added so far); re-opening (prior size: 64829.8 KB)
+0009.818 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 14000 files added (on-disk size: 66927 KB)
+0009.824 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 14100 files added (on-disk size: 66927 KB)
+0009.830 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 14200 files added (on-disk size: 66927 KB)
+0009.836 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 14300 files added (on-disk size: 66927 KB)
+0009.842 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 14400 files added (on-disk size: 66927 KB)
+0009.848 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip.tmp: 14500 files added (on-disk size: 66927 KB)
+0011.200 (0) Created plugins zip (0) - 70480 KB in 11.1 s (6371.8 KB/s) (sha1: 75b593d0ed262d532aa456debe4a24f5d2b07ab1, sha256: fbc91acf71dde12700d867bbdbc60f6e37a835bf1ea2e790ccb1e87983695304)
+0011.208 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.239 (0) Total entities for the zip file: 263 directories, 1772 files (0 skipped as non-modified), 89.7 MB
+0011.246 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.252 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.258 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.265 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0011.271 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0011.277 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0011.283 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0011.290 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0011.296 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0011.303 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0011.306 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.4 MB, 1772 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0012.125 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: size is now: 9.50 MB
+0012.136 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 1100 files added (on-disk size: 9720.5 KB)
+0012.142 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 1200 files added (on-disk size: 9720.5 KB)
+0012.148 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 1300 files added (on-disk size: 9720.5 KB)
+0012.154 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 1400 files added (on-disk size: 9720.5 KB)
+0012.160 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 1500 files added (on-disk size: 9720.5 KB)
+0012.166 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 1600 files added (on-disk size: 9720.5 KB)
+0012.172 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: 1700 files added (on-disk size: 9720.5 KB)
+0013.984 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip.tmp: size is now: 25.40 MB
+0014.270 (0) Created themes zip (0) - 26026.2 KB in 3.1 s (8510.2 KB/s) (sha1: db5f55f4b5a0f82862d13b14a962cfb813b4ffdf, sha256: 6ddfad61212e7e32f49ed3e7c6946f2176bff2b5a791d600dc58f90eeae69f56)
+0014.278 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0014.281 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0014.283 (0) finding files: prahali-180x180.png: adding to list (1)
+0014.287 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a.jpg: adding to list (2)
+0014.290 (0) finding files: prahali-845x684.png: adding to list (3)
+0014.293 (0) finding files: siteorigin-widgets: adding to list (4)
+0014.295 (0) finding files: Myteknow-logo-variations_original-300x127-7.png: adding to list (5)
+0014.298 (0) finding files: Myteknow-logo-variations_original-300x127-8.png: adding to list (6)
+0014.301 (0) finding files: prahali-705x705.png: adding to list (7)
+0014.303 (0) finding files: wpforms: adding to list (8)
+0014.307 (0) finding files: visualizer: adding to list (9)
+0014.310 (0) finding files: prahali-845x321.png: adding to list (10)
+0014.314 (0) finding files: prahali-1030x1030.png: adding to list (11)
+0014.317 (0) finding files: prahali-1210x423.png: adding to list (12)
+0014.319 (0) finding files: Myteknow-logo-variations_original-300x127-12.png: adding to list (13)
+0014.322 (0) finding files: prahali-1500x430.png: adding to list (14)
+0014.326 (0) finding files: prahali.png: adding to list (15)
+0014.328 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-180x180.jpg: adding to list (16)
+0014.331 (0) finding files: prahali-1500x630.png: adding to list (17)
+0014.333 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-495x400.jpg: adding to list (18)
+0014.335 (0) finding files: Myteknow-logo-variations_original-300x127-3.png: adding to list (19)
+0014.339 (0) finding files: mdocs: adding to list (20)
+0014.343 (0) finding files: Myteknow-logo-variations_original-300x127-2.png: adding to list (21)
+0014.346 (0) finding files: female_001_head_color_A.pngA0FCF6E5-7A61-43FA-A2BC-6739BE4C9FA7Default.jpg: adding to list (22)
+0014.350 (0) finding files: Myteknow-logo-variations_original-300x127-9.png: adding to list (23)
+0014.358 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-618x375.jpg: adding to list (24)
+0014.362 (0) finding files: dynamic_avia: adding to list (25)
+0014.364 (0) finding files: Myteknow-logo-variations_original-300x127-10.png: adding to list (26)
+0014.367 (0) finding files: prahali-36x36.png: adding to list (27)
+0014.370 (0) finding files: prahali-260x185.png: adding to list (28)
+0014.373 (0) finding files: woman-smiling-1057659_960_720.jpg: adding to list (29)
+0014.375 (0) finding files: wp-import-export-lite: adding to list (30)
+0014.378 (0) finding files: sample9-2-272x182.jpg: adding to list (31)
+0014.382 (0) finding files: Myteknow-logo-variations_original-300x127-5.png: adding to list (32)
+0014.384 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-300x200.jpg: adding to list (33)
+0014.387 (0) finding files: prahali-768x768.png: adding to list (34)
+0014.390 (0) finding files: prahali-80x80.png: adding to list (35)
+0014.394 (0) finding files: so-css: adding to list (36)
+0014.396 (0) finding files: prahali-272x182.png: adding to list (37)
+0014.399 (0) finding files: sample9-2-36x36.jpg: adding to list (38)
+0014.403 (0) finding files: mr.png95674BE6-EED6-4D71-9D25-A54EEE88E1ADZoom.jpg: adding to list (39)
+0014.406 (0) finding files: prahali-710x375.png: adding to list (40)
+0014.409 (0) finding files: 2021: adding to list (41)
+0014.411 (0) finding files: sample9-2.jpg: adding to list (42)
+0014.414 (0) finding files: sample9-2-300x180.jpg: adding to list (43)
+0014.418 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-80x80.jpg: adding to list (44)
+0014.420 (0) finding files: sample9-2-495x300.jpg: adding to list (45)
+0014.423 (0) finding files: 2020: adding to list (46)
+0014.426 (0) finding files: 158332.jpg: adding to list (47)
+0014.429 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-272x182.jpg: adding to list (48)
+0014.431 (0) finding files: Myteknow-logo-variations_original-300x127-6.png: adding to list (49)
+0014.435 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-260x185.jpg: adding to list (50)
+0014.438 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-36x36.jpg: adding to list (51)
+0014.438 (0) finding files: 7c5198d2a0751fa76c8433dba4a1a12a-618x321.jpg: adding to list (52)
+0014.438 (0) finding files: prahali-1500x1500.png: adding to list (53)
+0014.438 (0) finding files: mdocs-ftp: adding to list (54)
+0014.438 (0) finding files: Myteknow-logo-variations_original-300x127-4.png: adding to list (55)
+0014.438 (0) finding files: ultimatemember: adding to list (56)
+0014.438 (0) finding files: sample9-2-180x180.jpg: adding to list (57)
+0014.438 (0) finding files: sample9-2-260x185.jpg: adding to list (58)
+0014.438 (0) finding files: sample9-2-80x80.jpg: adding to list (59)
+0014.438 (0) finding files: woman-smiling-1057659_960_720-1.jpg: adding to list (60)
+0014.438 (0) finding files: Myteknow-logo-variations_original-300x127-1.png: adding to list (61)
+0014.438 (0) finding files: Myteknow-logo-variations_original-300x127-11.png: adding to list (62)
+0014.438 (0) finding files: prahali-2048x2048.png: adding to list (63)
+0014.438 (0) finding files: prahali-300x300.png: adding to list (64)
+0014.438 (0) finding files: prahali-495x400.png: adding to list (65)
+0014.438 (0) finding files: prahali-1536x1536.png: adding to list (66)
+0014.439 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0014.455 (0) Total entities for the zip file: 37 directories, 945 files (0 skipped as non-modified), 123.4 MB
+0014.462 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.469 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0014.475 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0014.482 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0014.488 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0014.495 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0014.501 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0014.507 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0014.513 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0014.518 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 115.1 MB added on this batch (119.9 MB, 945 files batched, 942 (942) added so far); re-opening (prior size: 0 KB)
+0016.734 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip.tmp: size is now: 97.10 MB
+0016.743 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.7 s, rate: 43806.5 KB/s)
+0016.750 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8025650978088, normalised_time=2.6906599164804, max_time=16.746210813522, data points known=1, old_max_bytes=120697319, new_max_bytes=209715200)
+0017.974 (0) Created uploads zip (0) - 102956.1 KB in 3.5 s (29149.4 KB/s) (sha1: 8cf94dc3097885c52b578e607e411e1c051cb4bf, sha256: b465b8e863d188d29418aca15fc097f9abaffb7aa2fecd35e8fb913829fcc47f)
+0017.982 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.985 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.988 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0017.992 (0) finding files: themes: skipping: this is the themes directory
+0017.995 (0) finding files: plugins: skipping: this is the plugins directory
+0017.998 (0) finding files: index.php: adding to list (1)
+0018.002 (0) finding files: upgrade: skipping: excluded by options
+0018.004 (0) finding files: languages: adding to list (2)
+0018.007 (0) finding files: uploads: skipping: this is the uploads directory
+0018.009 (0) finding files: updraft: skipping: this is the updraft directory
+0018.016 (0) Total entities for the zip file: 3 directories, 100 files (0 skipped as non-modified), 4.4 MB
+0018.023 (0) Zip: backup_2021-01-27-0504_AEON_2a2f0aad7490-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.251 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-others.zip.tmp: size is now: 1.30 MB
+0018.279 (0) Created others zip (0) - 1315 KB in 0.3 s (4906.7 KB/s) (sha1: 7220b558f2090c987eee0738f6e1736d99817fee, sha256: 71edc8f954fdd3bf75f9a08f75120488779d91141fd8339d4a097ba0ce310c73)
+0018.294 (0) Saving backup status to database (elements: 8)
+0018.303 (0) Beginning creation of database dump (WordPress DB)
+0018.306 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0018.313 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0018.329 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1334 bytes total)
+0018.333 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0018.346 (0) Table wp_options: Total expected rows (approximate): 823
+0018.442 (0) Table wp_options: Rows added in this batch (next record: 14913): 818 (uncompressed bytes in this segment=2697391) in 0.09 seconds
+0018.454 (0) Table wp_options: finishing file(s) (2, 417.8 KB)
+0018.462 (0) Table wp_users: Total expected rows (approximate): 28
+0018.465 (0) Table wp_users: Rows added in this batch (next record: 191): 29 (uncompressed bytes in this segment=6270) in 0.00 seconds
+0018.475 (0) Table wp_users: finishing file(s) (2, 2.6 KB)
+0018.486 (0) Table wp_usermeta: Total expected rows (approximate): 1254
+0018.502 (0) Table wp_usermeta: Rows added in this batch (next record: 4711): 1341 (uncompressed bytes in this segment=274475) in 0.01 seconds
+0018.512 (0) Table wp_usermeta: finishing file(s) (2, 28.9 KB)
+0018.519 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 61
+0018.525 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 847): 61 (uncompressed bytes in this segment=20727) in 0.00 seconds
+0018.536 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.6 KB)
+0018.543 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0018.547 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.00 seconds
+0018.562 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0018.568 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0018.572 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=720) in 0.00 seconds
+0018.583 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0018.590 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 176
+0018.596 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 302): 179 (uncompressed bytes in this segment=16406) in 0.00 seconds
+0018.607 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2.5 KB)
+0018.614 (0) Table wp_commentmeta: Total expected rows (approximate): 16845
+0018.679 (0) Table wp_commentmeta: binary mysqldump finished (writes: 32) in 0.06 seconds
+0018.687 (0) Table wp_commentmeta: finishing file(s) (1, 102.8 KB)
+0018.695 (0) Table wp_comments: Total expected rows (approximate): 1085
+0018.727 (0) Table wp_comments: Rows added in this batch (next record: 1217): 1143 (uncompressed bytes in this segment=1011291) in 0.03 seconds
+0018.739 (0) Table wp_comments: finishing file(s) (2, 26.5 KB)
+0018.748 (0) Table wp_links: Total expected rows (approximate): 0
+0018.752 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1365) in 0.00 seconds
+0018.763 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0018.775 (0) Table wp_postmeta: Total expected rows (approximate): 14444
+0018.895 (0) Binary mysqldump: error (code: 3)
+0023.488 (0) Table wp_postmeta: Rows added in this batch (next record: 15236): 11051 (uncompressed bytes in this segment=103683591) in 4.59 seconds
+0023.498 (0) Table wp_postmeta: finishing file(s) (2, 66480.7 KB)
+0023.506 (0) Table wp_posts: Total expected rows (approximate): 1675
+0028.360 (0) Table wp_posts: Rows added in this batch (next record: 2792): 1502 (uncompressed bytes in this segment=107433352) in 4.85 seconds
+0028.370 (0) Table wp_posts: Rows added in this batch (next record: 2792): 0 (uncompressed bytes in this segment=0) in 0.00 seconds
+0028.379 (0) Table wp_posts: finishing file(s) (3, 67550.1 KB)
+0028.387 (0) Table wp_term_relationships: Total expected rows (approximate): 655
+0028.397 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 660 (uncompressed bytes in this segment=11752) in 0.01 seconds
+0028.408 (0) Table wp_term_relationships: finishing file(s) (2, 2.4 KB)
+0028.415 (0) Table wp_term_taxonomy: Total expected rows (approximate): 316
+0028.426 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 339): 322 (uncompressed bytes in this segment=20479) in 0.01 seconds
+0028.438 (0) Table wp_term_taxonomy: finishing file(s) (2, 5.8 KB)
+0028.443 (0) Table wp_termmeta: Total expected rows (approximate): 136
+0028.451 (0) Table wp_termmeta: Rows added in this batch (next record: 171): 155 (uncompressed bytes in this segment=7087) in 0.00 seconds
+0028.462 (0) Table wp_termmeta: finishing file(s) (2, 2.2 KB)
+0028.470 (0) Table wp_terms: Total expected rows (approximate): 316
+0028.476 (0) Table wp_terms: Rows added in this batch (next record: 339): 322 (uncompressed bytes in this segment=19024) in 0.00 seconds
+0028.487 (0) Table wp_terms: finishing file(s) (2, 5.9 KB)
+0028.495 (0) Table wp_cf_form_entries: Total expected rows (approximate): 1
+0028.500 (0) Table wp_cf_form_entries: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=925) in 0.00 seconds
+0028.511 (0) Table wp_cf_form_entries: finishing file(s) (2, 0.5 KB)
+0028.518 (0) Table wp_cf_form_entry_meta: Total expected rows (approximate): 0
+0028.522 (0) Table wp_cf_form_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=794) in 0.00 seconds
+0028.533 (0) Table wp_cf_form_entry_meta: finishing file(s) (2, 0.4 KB)
+0028.540 (0) Table wp_cf_form_entry_values: Total expected rows (approximate): 20
+0028.544 (0) Table wp_cf_form_entry_values: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=1840) in 0.00 seconds
+0028.555 (0) Table wp_cf_form_entry_values: finishing file(s) (2, 0.8 KB)
+0028.562 (0) Table wp_cf_forms: Total expected rows (approximate): 22
+0028.579 (0) Table wp_cf_forms: Rows added in this batch (next record: 37): 28 (uncompressed bytes in this segment=405607) in 0.02 seconds
+0028.591 (0) Table wp_cf_forms: finishing file(s) (2, 13 KB)
+0028.598 (0) Table wp_cf_pro_messages: Total expected rows (approximate): 0
+0028.602 (0) Table wp_cf_pro_messages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=670) in 0.00 seconds
+0028.611 (0) Table wp_cf_pro_messages: finishing file(s) (2, 0.4 KB)
+0028.619 (0) Table wp_cf_queue_failures: Total expected rows (approximate): 0
+0028.623 (0) Table wp_cf_queue_failures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.00 seconds
+0028.634 (0) Table wp_cf_queue_failures: finishing file(s) (2, 0.3 KB)
+0028.642 (0) Table wp_cf_queue_jobs: Total expected rows (approximate): 0
+0028.646 (0) Table wp_cf_queue_jobs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=636) in 0.00 seconds
+0028.656 (0) Table wp_cf_queue_jobs: finishing file(s) (2, 0.4 KB)
+0028.663 (0) Table wp_frmt_form_entry: Total expected rows (approximate): 0
+0028.668 (0) Table wp_frmt_form_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=783) in 0.00 seconds
+0028.677 (0) Table wp_frmt_form_entry: finishing file(s) (2, 0.4 KB)
+0028.683 (0) Table wp_frmt_form_entry_meta: Total expected rows (approximate): 0
+0028.687 (0) Table wp_frmt_form_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0028.698 (0) Table wp_frmt_form_entry_meta: finishing file(s) (2, 0.4 KB)
+0028.704 (0) Table wp_frmt_form_views: Total expected rows (approximate): 0
+0028.708 (0) Table wp_frmt_form_views: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=951) in 0.00 seconds
+0028.719 (0) Table wp_frmt_form_views: finishing file(s) (2, 0.4 KB)
+0028.725 (0) Table wp_layerslider: Total expected rows (approximate): 0
+0028.729 (0) Table wp_layerslider: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1024) in 0.00 seconds
+0028.738 (0) Table wp_layerslider: finishing file(s) (2, 0.4 KB)
+0028.744 (0) Table wp_layerslider_revisions: Total expected rows (approximate): 0
+0028.748 (0) Table wp_layerslider_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.00 seconds
+0028.758 (0) Table wp_layerslider_revisions: finishing file(s) (2, 0.4 KB)
+0028.766 (0) Table wp_ms_snippets: Total expected rows (approximate): 0
+0028.770 (0) Table wp_ms_snippets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=884) in 0.00 seconds
+0028.780 (0) Table wp_ms_snippets: finishing file(s) (2, 0.4 KB)
+0028.786 (0) Table wp_pp_group_members: Total expected rows (approximate): 23
+0028.791 (0) Table wp_pp_group_members: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=3472) in 0.00 seconds
+0028.799 (0) Table wp_pp_group_members: finishing file(s) (2, 0.6 KB)
+0028.806 (0) Table wp_pp_groups: Total expected rows (approximate): 14
+0028.809 (0) Table wp_pp_groups: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=2211) in 0.00 seconds
+0028.820 (0) Table wp_pp_groups: finishing file(s) (2, 0.8 KB)
+0028.828 (0) Table wp_ppc_exception_items: Total expected rows (approximate): 0
+0028.830 (0) Table wp_ppc_exception_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=879) in 0.00 seconds
+0028.841 (0) Table wp_ppc_exception_items: finishing file(s) (2, 0.4 KB)
+0028.848 (0) Table wp_ppc_exceptions: Total expected rows (approximate): 0
+0028.850 (0) Table wp_ppc_exceptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1316) in 0.00 seconds
+0028.862 (0) Table wp_ppc_exceptions: finishing file(s) (2, 0.5 KB)
+0028.868 (0) Table wp_ppc_roles: Total expected rows (approximate): 0
+0028.872 (0) Table wp_ppc_roles: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.00 seconds
+0028.883 (0) Table wp_ppc_roles: finishing file(s) (2, 0.4 KB)
+0028.889 (0) Table wp_ppi_errors: Total expected rows (approximate): 0
+0028.892 (0) Table wp_ppi_errors: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=707) in 0.00 seconds
+0028.902 (0) Table wp_ppi_errors: finishing file(s) (2, 0.4 KB)
+0028.911 (0) Table wp_ppi_imported: Total expected rows (approximate): 0
+0028.916 (0) Table wp_ppi_imported: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.00 seconds
+0028.928 (0) Table wp_ppi_imported: finishing file(s) (2, 0.4 KB)
+0028.936 (0) Table wp_ppi_runs: Total expected rows (approximate): 0
+0028.940 (0) Table wp_ppi_runs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0028.952 (0) Table wp_ppi_runs: finishing file(s) (2, 0.4 KB)
+0028.960 (0) Table wp_sharedocs: Total expected rows (approximate): 1
+0028.964 (0) Table wp_sharedocs: Rows added in this batch (next record: 23): 1 (uncompressed bytes in this segment=591) in 0.00 seconds
+0028.976 (0) Table wp_sharedocs: finishing file(s) (2, 0.4 KB)
+0028.984 (0) Table wp_snippets: Total expected rows (approximate): 6
+0028.989 (0) Table wp_snippets: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=7168) in 0.00 seconds
+0029.000 (0) Table wp_snippets: finishing file(s) (2, 2.2 KB)
+0029.008 (0) Table wp_um_metadata: Total expected rows (approximate): 0
+0029.012 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=720) in 0.00 seconds
+0029.023 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0029.031 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 5
+0029.036 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1144) in 0.00 seconds
+0029.048 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0029.056 (0) Table wp_wpie_template: Total expected rows (approximate): 8
+0029.067 (0) Table wp_wpie_template: Rows added in this batch (next record: 9): 8 (uncompressed bytes in this segment=152505) in 0.01 seconds
+0029.078 (0) Table wp_wpie_template: finishing file(s) (2, 7.3 KB)
+0029.086 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (approximate): 20
+0029.091 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=3502) in 0.00 seconds
+0029.103 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.8 KB)
+0029.111 (0) Table wp_yoast_indexable: Total expected rows (approximate): 373
+0029.131 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 552): 385 (uncompressed bytes in this segment=187167) in 0.02 seconds
+0029.144 (0) Table wp_yoast_indexable: finishing file(s) (2, 26.8 KB)
+0029.152 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 63
+0029.156 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 68 (uncompressed bytes in this segment=2048) in 0.00 seconds
+0029.167 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0029.174 (0) Table wp_yoast_migrations: Total expected rows (approximate): 21
+0029.179 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1149) in 0.00 seconds
+0029.190 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0029.196 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 0
+0029.200 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0029.211 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0029.218 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 63
+0029.224 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 232): 63 (uncompressed bytes in this segment=8342) in 0.00 seconds
+0029.235 (0) Table wp_yoast_seo_links: finishing file(s) (2, 1.6 KB)
+0029.240 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_options.table.tmpr14914.gz (1/48): adding to final database dump
+0029.329 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_options.table.gz (2/48): adding to final database dump
+0029.333 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_users.table.tmpr192.gz (3/48): adding to final database dump
+0029.336 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_users.table.gz (4/48): adding to final database dump
+0029.340 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_usermeta.table.tmpr4712.gz (5/48): adding to final database dump
+0029.350 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_usermeta.table.gz (6/48): adding to final database dump
+0029.354 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_actionscheduler_actions.table.tmpr848.gz (7/48): adding to final database dump
+0029.358 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_actionscheduler_actions.table.gz (8/48): adding to final database dump
+0029.361 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/48): adding to final database dump
+0029.363 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_actionscheduler_claims.table.gz (10/48): adding to final database dump
+0029.367 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/48): adding to final database dump
+0029.369 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_actionscheduler_groups.table.gz (12/48): adding to final database dump
+0029.371 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_actionscheduler_logs.table.tmpr303.gz (13/48): adding to final database dump
+0029.376 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_actionscheduler_logs.table.gz (14/48): adding to final database dump
+0029.379 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_commentmeta.table.gz (15/48): adding to final database dump
+0029.406 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_comments.table.tmpr1218.gz (16/48): adding to final database dump
+0029.422 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_comments.table.gz (17/48): adding to final database dump
+0029.426 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_links.table.tmpr0.gz (18/48): adding to final database dump
+0029.429 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_links.table.gz (19/48): adding to final database dump
+0029.431 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_postmeta.table.tmpr15237.gz (20/48): adding to final database dump
+0034.374 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_postmeta.table.gz (21/48): adding to final database dump
+0034.379 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_posts.table.tmpr2792.gz (22/48): adding to final database dump
+0039.422 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_posts.table.tmpr2793.gz (23/48): adding to final database dump
+0039.426 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_posts.table.gz (24/48): adding to final database dump
+0039.430 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_term_relationships.table.tmpr100001.gz (25/48): adding to final database dump
+0039.432 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_term_relationships.table.gz (26/48): adding to final database dump
+0039.435 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_term_taxonomy.table.tmpr340.gz (27/48): adding to final database dump
+0039.440 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_term_taxonomy.table.gz (28/48): adding to final database dump
+0039.443 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_termmeta.table.tmpr172.gz (29/48): adding to final database dump
+0039.447 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_termmeta.table.gz (30/48): adding to final database dump
+0039.451 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_terms.table.tmpr340.gz (31/48): adding to final database dump
+0039.456 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_terms.table.gz (32/48): adding to final database dump
+0039.459 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_form_entries.table.tmpr2.gz (33/48): adding to final database dump
+0039.463 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_form_entries.table.gz (34/48): adding to final database dump
+0039.466 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_form_entry_meta.table.tmpr0.gz (35/48): adding to final database dump
+0039.470 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_form_entry_meta.table.gz (36/48): adding to final database dump
+0039.472 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_form_entry_values.table.tmpr21.gz (37/48): adding to final database dump
+0039.476 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_form_entry_values.table.gz (38/48): adding to final database dump
+0039.479 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_forms.table.tmpr38.gz (39/48): adding to final database dump
+0039.488 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_forms.table.gz (40/48): adding to final database dump
+0039.492 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_pro_messages.table.tmpr0.gz (41/48): adding to final database dump
+0039.496 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_pro_messages.table.gz (42/48): adding to final database dump
+0039.502 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_queue_failures.table.tmpr0.gz (43/48): adding to final database dump
+0039.506 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_queue_failures.table.gz (44/48): adding to final database dump
+0039.510 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_queue_jobs.table.tmpr0.gz (45/48): adding to final database dump
+0039.512 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_cf_queue_jobs.table.gz (46/48): adding to final database dump
+0039.515 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_frmt_form_entry.table.tmpr0.gz (47/48): adding to final database dump
+0039.519 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_frmt_form_entry.table.gz (48/48): adding to final database dump
+0039.522 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_frmt_form_entry_meta.table.tmpr0.gz (49/48): adding to final database dump
+0039.525 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_frmt_form_entry_meta.table.gz (50/48): adding to final database dump
+0039.527 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_frmt_form_views.table.tmpr0.gz (51/48): adding to final database dump
+0039.530 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_frmt_form_views.table.gz (52/48): adding to final database dump
+0039.534 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_layerslider.table.tmpr0.gz (53/48): adding to final database dump
+0039.536 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_layerslider.table.gz (54/48): adding to final database dump
+0039.539 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_layerslider_revisions.table.tmpr0.gz (55/48): adding to final database dump
+0039.542 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_layerslider_revisions.table.gz (56/48): adding to final database dump
+0039.546 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ms_snippets.table.tmpr0.gz (57/48): adding to final database dump
+0039.549 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ms_snippets.table.gz (58/48): adding to final database dump
+0039.551 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_pp_group_members.table.tmpr1001.gz (59/48): adding to final database dump
+0039.555 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_pp_group_members.table.gz (60/48): adding to final database dump
+0039.559 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_pp_groups.table.tmpr15.gz (61/48): adding to final database dump
+0039.562 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_pp_groups.table.gz (62/48): adding to final database dump
+0039.565 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppc_exception_items.table.tmpr0.gz (63/48): adding to final database dump
+0039.567 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppc_exception_items.table.gz (64/48): adding to final database dump
+0039.571 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppc_exceptions.table.tmpr0.gz (65/48): adding to final database dump
+0039.574 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppc_exceptions.table.gz (66/48): adding to final database dump
+0039.579 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppc_roles.table.tmpr0.gz (67/48): adding to final database dump
+0039.582 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppc_roles.table.gz (68/48): adding to final database dump
+0039.586 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppi_errors.table.tmpr0.gz (69/48): adding to final database dump
+0039.594 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppi_errors.table.gz (70/48): adding to final database dump
+0039.598 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppi_imported.table.tmpr0.gz (71/48): adding to final database dump
+0039.601 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppi_imported.table.gz (72/48): adding to final database dump
+0039.604 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppi_runs.table.tmpr0.gz (73/48): adding to final database dump
+0039.607 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_ppi_runs.table.gz (74/48): adding to final database dump
+0039.610 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_sharedocs.table.tmpr24.gz (75/48): adding to final database dump
+0039.614 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_sharedocs.table.gz (76/48): adding to final database dump
+0039.616 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_snippets.table.tmpr7.gz (77/48): adding to final database dump
+0039.619 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_snippets.table.gz (78/48): adding to final database dump
+0039.623 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_um_metadata.table.tmpr0.gz (79/48): adding to final database dump
+0039.626 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_um_metadata.table.gz (80/48): adding to final database dump
+0039.629 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (81/48): adding to final database dump
+0039.632 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_wpforms_tasks_meta.table.gz (82/48): adding to final database dump
+0039.635 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_wpie_template.table.tmpr10.gz (83/48): adding to final database dump
+0039.641 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_wpie_template.table.gz (84/48): adding to final database dump
+0039.644 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr36.gz (85/48): adding to final database dump
+0039.648 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_wpmailsmtp_tasks_meta.table.gz (86/48): adding to final database dump
+0039.651 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_indexable.table.tmpr553.gz (87/48): adding to final database dump
+0039.659 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_indexable.table.gz (88/48): adding to final database dump
+0039.664 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (89/48): adding to final database dump
+0039.667 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_indexable_hierarchy.table.gz (90/48): adding to final database dump
+0039.671 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_migrations.table.tmpr22.gz (91/48): adding to final database dump
+0039.674 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_migrations.table.gz (92/48): adding to final database dump
+0039.678 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_primary_term.table.tmpr0.gz (93/48): adding to final database dump
+0039.682 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_primary_term.table.gz (94/48): adding to final database dump
+0039.684 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_seo_links.table.tmpr233.gz (95/48): adding to final database dump
+0039.687 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db-table-wp_yoast_seo_links.table.gz (96/48): adding to final database dump
+0039.694 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db.gz: finished writing out complete database file (134672 KB)
+0041.127 (0) Total database tables backed up: 48 (backup_2021-01-27-0504_AEON_2a2f0aad7490-db.gz, size: 137916623, sha1: 444ea2c8a5dc40b1fd6cffffa398102482b565ea, sha256: b3ae0f4f691a799fc669bc72cfe4d67f104e393c3914716e8ab2b096061e0d27)
+0041.162 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0041.168 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0041.175 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0041.183 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-others.zip: others: This file has not yet been successfully uploaded: will queue
+0041.191 (0) backup_2021-01-27-0504_AEON_2a2f0aad7490-db.gz: db: This file has not yet been successfully uploaded: will queue
+0041.198 (0) Saving backup history. Total backup size: 327.6 MB
+0041.216 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0041.236 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0041.240 (0) No remote despatch: user chose no remote backup service
+0041.245 (0) Recording as successfully uploaded: backup_2021-01-27-0504_AEON_2a2f0aad7490-plugins.zip
+0041.259 (0) Recording as successfully uploaded: backup_2021-01-27-0504_AEON_2a2f0aad7490-themes.zip
+0041.269 (0) Recording as successfully uploaded: backup_2021-01-27-0504_AEON_2a2f0aad7490-uploads.zip
+0041.278 (0) Recording as successfully uploaded: backup_2021-01-27-0504_AEON_2a2f0aad7490-others.zip
+0041.294 (0) Recording as successfully uploaded: backup_2021-01-27-0504_AEON_2a2f0aad7490-db.gz
+0041.311 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0041.318 (0) Number of backup sets in history: 3; groups (db): 1
+0041.323 (0) Examining (for databases) backup set with group_id=0, nonce=2a2f0aad7490, datestamp=1611720267 (Jan 27 2021 04:04:27)
+0041.330 (0) This backup set is the backup set just made, so will not be deleted.
+0041.330 (0) Examining (for databases) backup set with group_id=0, nonce=fbf0317179e9, datestamp=1611635910 (Jan 26 2021 04:38:30)
+0041.330 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.336 (0) Examining (for databases) backup set with group_id=0, nonce=4bae010693af, datestamp=1611548644 (Jan 25 2021 04:24:04)
+0041.336 (0) 1611548644: db: this set includes a database (backup_2021-01-25-0524_AEON_4bae010693af-db.gz); db count is now 2
+0041.336 (0) 1611548644: db: over retain limit (2); will delete this database
+0041.336 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-db.gz, service=none
+0041.342 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-db.gz)
+0041.379 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0041.388 (0) Number of backup sets in history: 3; groups (files): 1
+0041.395 (0) Examining (for files) backup set with nonce=2a2f0aad7490, datestamp=1611720267 (Jan 27 2021 04:04:27)
+0041.395 (0) This backup set is the backup set just made, so will not be deleted.
+0041.400 (0) This backup set is the backup set just made, so will not be deleted.
+0041.400 (0) This backup set is the backup set just made, so will not be deleted.
+0041.401 (0) This backup set is the backup set just made, so will not be deleted.
+0041.401 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.406 (0) Examining (for files) backup set with nonce=fbf0317179e9, datestamp=1611635910 (Jan 26 2021 04:38:30)
+0041.406 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.406 (0) Examining (for files) backup set with nonce=4bae010693af, datestamp=1611548644 (Jan 25 2021 04:24:04)
+0041.406 (0) plugins: over retain limit (2); will delete this file entity
+0041.406 (0) themes: over retain limit (2); will delete this file entity
+0041.406 (0) uploads: over retain limit (2); will delete this file entity
+0041.406 (0) others: over retain limit (2); will delete this file entity
+0041.406 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-plugins.zip, service=none
+0041.413 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-plugins.zip)
+0041.417 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-themes.zip, service=none
+0041.422 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-themes.zip)
+0041.429 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-uploads.zip, service=none
+0041.437 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-uploads.zip)
+0041.445 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others.zip, service=none
+0041.449 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others.zip)
+0041.455 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others2.zip, service=none
+0041.462 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others2.zip)
+0041.474 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others3.zip, service=none
+0041.480 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others3.zip)
+0041.494 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others4.zip, service=none
+0041.500 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others4.zip)
+0041.520 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others5.zip, service=none
+0041.526 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others5.zip)
+0041.593 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others6.zip, service=none
+0041.600 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others6.zip)
+0041.697 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others7.zip, service=none
+0041.707 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others7.zip)
+0041.775 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others8.zip, service=none
+0041.783 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others8.zip)
+0041.790 (0) Delete file: backup_2021-01-25-0524_AEON_4bae010693af-others9.zip, service=none
+0041.797 (0) Deleting local copy (backup_2021-01-25-0524_AEON_4bae010693af-others9.zip)
+0041.827 (0) This backup set is now empty; will remove from history
+0041.834 (0) Deleting log file (log.4bae010693af.txt)
+0041.844 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0041.873 (0) Resume backup (2a2f0aad7490, 0): finish run
+0041.892 (0) Decremented the semaphore (fd) by 1
+0041.898 (0) Semaphore (fd) unlocked
+0041.902 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0041.912 (0) Fetching RSS news feed
+0042.045 (0) Fetched RSS news feed; result is a: SimplePie
+0042.068 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: teddy...
+0046.644 (0) The backup apparently succeeded and is now complete

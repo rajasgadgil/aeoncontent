@@ -1,0 +1,78 @@
+# Translation of Plugins - Radio Buttons for Taxonomies - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Radio Buttons for Taxonomies - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-18 22:50:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Radio Buttons for Taxonomies - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "helgatheviking"
+msgstr "helgatheviking"
+
+#: radio-buttons-for-taxonomies.php:89
+msgid "Unserializing instances of this class is forbidden."
+msgstr "La désérialisation des instances de cette classe est interdite."
+
+#: radio-buttons-for-taxonomies.php:80
+msgid "Cloning this object is forbidden."
+msgstr "Le clonage de cet objet est interdit."
+
+#: radio-buttons-for-taxonomies.php:327
+msgid "Donate"
+msgstr "Faire un don"
+
+#. Author URI of the plugin
+msgid "https://www.kathyisawesome.com"
+msgstr "https://www.kathyisawesome.com"
+
+#. Description of the plugin
+msgid "Use radio buttons for any taxonomy so users can only select 1 term at a time"
+msgstr "Utiliser des boutons radio pour n’importe quelle taxonomie afin que les utilisateurs ne puissent sélectionner qu’un seul terme à la fois"
+
+#. Plugin URI of the plugin
+msgid "http://www.kathyisawesome.com/441/radio-buttons-for-taxonomies"
+msgstr "http://www.kathyisawesome.com/441/radio-buttons-for-taxonomies"
+
+#: radio-buttons-for-taxonomies.php:310
+msgid "Settings"
+msgstr "Réglage"
+
+#: radio-buttons-for-taxonomies.php:204
+msgid "Radio Buttons for Taxonomies Options Page"
+msgstr "Page des options de Radio Buttons for Taxonomies"
+
+#: inc/plugin-options.php:58
+msgid "Save Changes"
+msgstr "Sauvegarder les réglages"
+
+#: inc/plugin-options.php:51
+msgid "Completely remove options on plugin removal"
+msgstr "Supprimer complètement les options lors de la suppression de l’extension"
+
+#: inc/plugin-options.php:44
+msgid "Options"
+msgstr "Paramètres"
+
+#: inc/plugin-options.php:18
+msgid "Select taxonomies to convert to radio buttons"
+msgstr "Sélectionner les taxonomies à convertir en boutons radio"
+
+#. Plugin Name of the plugin
+#: radio-buttons-for-taxonomies.php:204 inc/plugin-options.php:10
+msgid "Radio Buttons for Taxonomies"
+msgstr "Radio Buttons for Taxonomies"
+
+#: inc/class.WordPress_Radio_Taxonomy.php:336
+msgid "No %s"
+msgstr "Pas de %s"
+
+#. translators: %s: add new taxonomy label
+#: inc/class.WordPress_Radio_Taxonomy.php:183
+msgid "+ %s"
+msgstr "+ %s"

@@ -1,0 +1,205 @@
+@keyframes shadow-pulse-red {
+  0% {
+    box-shadow: 0px 0px 0px 0px red;
+  }
+  50% {
+    box-shadow: 0px 0px 3px 0px red;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 0px red;
+  }
+}
+#theta_settings .section {
+  background-color: #f9f9f9;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #adadad;
+  position: relative;
+}
+#theta_settings .no-padding {
+  padding: 0px !important;
+}
+#theta_settings .margin-in-content {
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+#theta_settings .section-collapsed {
+  overflow: auto;
+  height: 212px;
+}
+#theta_settings .move-right {
+  margin-left: 10px;
+}
+#theta_settings .move-bottom {
+  margin-top: 5px;
+}
+#theta_settings .clickable {
+  cursor: pointer;
+}
+#theta_settings .center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+#theta_settings .empty .start-slide {
+  display: block;
+}
+#theta_settings .start-slide {
+  display: none;
+  float: none !important;
+}
+#theta_settings .slide-properties-panel {
+  background-color: #f9f9f9;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  opacity: 0.7;
+}
+#theta_settings .slide-properties-panel td {
+  text-align: left;
+}
+#theta_settings .slide {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background: #e0e0e0;
+  cursor: pointer;
+  border: 1px solid #adadad;
+  float: left;
+  position: relative;
+}
+#theta_settings .slide-place-holder {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background: #e0e0e0;
+  cursor: pointer;
+  border: 1px solid #adadad;
+  float: left;
+  position: relative;
+  background: transparent;
+  border-style: dashed;
+}
+#theta_settings .slide .image-box {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  margin: auto;
+  margin-top: 50px;
+}
+#theta_settings .slide:hover {
+  background: #c6c6c6;
+}
+#theta_settings .start-slide .dashicons {
+  font-size: 100px;
+  width: 100%;
+  height: 145px;
+}
+#theta_settings .start-slide .title {
+  line-height: 55px;
+  width: 100%;
+  font-size: 25px;
+  height: 55px;
+}
+#theta_settings .layouts {
+  margin: auto;
+  display: table;
+  margin-bottom: 10px;
+}
+#theta_settings .settings-small-button {
+  color: #3e3c3c;
+  cursor: pointer;
+  padding: 4px;
+}
+#theta_settings .settings-small-button:hover {
+  color: #0a0a0a;
+}
+#theta_settings .layout {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  float: left;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border: 1px solid #adadad;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+#theta_settings .warning {
+  color: chocolate;
+  font-size: 16px;
+  font-weight: 500;
+}
+#theta_settings .layout:hover {
+  background-color: #c6c6c6;
+}
+#theta_settings .layout-selected {
+  background-color: #c6c6c6;
+}
+#theta_settings .tb-button {
+  border: 1px solid #adadad;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+#theta_settings .tb-button:hover {
+  background: #e0e0e0;
+}
+#theta_settings .tool-box-inner {
+  right: 3px !important;
+  top: 3px !important;
+  position: absolute;
+  margin-top: 0px !important;
+}
+#theta_settings .attantion-required {
+  box-shadow: 0px 0px 3px 0px red;
+}
+#theta_settings .pulse-red {
+  animation: shadow-pulse-red 0.3s;
+  animation-delay: 1s;
+  animation-iteration-count: 3;
+}
+#theta_settings .tool-box {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+#theta_settings .tool-box .tb-button {
+  margin-left: 3px;
+}
+#theta_settings .tool-box .danger {
+  color: red;
+}
+#theta_settings .tool-box .info {
+  color: blue;
+}
+#theta_settings .tool-box .ok {
+  color: black;
+}
+#theta_settings .title {
+  font-size: 14px;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#theta_settings .extra-options .td-lbl {
+  width: 150px;
+  border-bottom: 1px dashed lightgrey;
+  text-align: left;
+}
+#theta_settings .extra-options tr {
+  height: 30px;
+}
+#theta_settings .extra-options .td-val {
+  width: 200px;
+  border-bottom: 1px dashed lightgrey;
+  border-right: 1px dashed lightgrey;
+}
+#theta_settings .extra-options .no-border-right {
+  border-right: 0px;
+}
+#theta_settings .extra-options table {
+  width: 100%;
+}

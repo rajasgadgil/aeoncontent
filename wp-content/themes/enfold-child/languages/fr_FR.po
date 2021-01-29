@@ -1,0 +1,590 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-18 15:31+0000\n"
+"PO-Revision-Date: 2021-01-18 15:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 02-01-2021/search.php:23 04-01-2021/search.php:24
+#: 06-01-2021-original/search.php:23 06-01-2021/search.php:23
+#: 13-01-2021/original/search.php:23 13-01-2021/search.php:23
+#: 14-01-2021-original/search.php:23 14-01-2021/search.php:23
+#: 30-12-2020/search.php:23
+#, fuzzy
+#| msgid "Companies"
+msgid "Comparatif"
+msgstr "FOURNISSEURS"
+
+#: 02-01-2021/search.php:24 04-01-2021/search.php:25
+#: 06-01-2021-original/search.php:24 06-01-2021/search.php:24
+#: 13-01-2021/original/search.php:24 13-01-2021/search.php:24
+#: 14-01-2021-original/search.php:24 14-01-2021/search.php:24
+#: 30-12-2020/search.php:24
+msgid "Guide"
+msgstr ""
+
+#: 02-01-2021/search.php:25 04-01-2021/search.php:26
+#: 06-01-2021-original/search.php:25 06-01-2021/search.php:25
+#: 13-01-2021/original/search.php:25 13-01-2021/search.php:25
+#: 14-01-2021-original/search.php:25 14-01-2021/search.php:25
+#: 30-12-2020/search.php:25
+msgid "Enjeu"
+msgstr ""
+
+#: 02-01-2021/search.php:26 04-01-2021/search.php:27
+#: 06-01-2021-original/search.php:26 06-01-2021/search.php:26
+#: 13-01-2021/original/search.php:26 13-01-2021/search.php:26
+#: 14-01-2021-original/search.php:26 14-01-2021/search.php:26
+#: 30-12-2020/search.php:26
+msgid "Tendance"
+msgstr ""
+
+#: 02-01-2021/search.php:27 04-01-2021/search.php:28
+#: 06-01-2021-original/search.php:27 06-01-2021/search.php:27
+#: 13-01-2021/original/search.php:27 13-01-2021/search.php:27
+#: 14-01-2021-original/search.php:27 14-01-2021/search.php:27
+#: 30-12-2020/search.php:27
+msgid "Expérience client"
+msgstr ""
+
+#: 02-01-2021/search.php:28 04-01-2021/search.php:29
+#: 06-01-2021-original/search.php:28 06-01-2021/search.php:28
+#: 13-01-2021/original/search.php:28 13-01-2021/search.php:28
+#: 14-01-2021-original/search.php:28 14-01-2021/search.php:28
+#: 30-12-2020/search.php:28
+msgid "Connaissance marché"
+msgstr ""
+
+#: 02-01-2021/search.php:29 04-01-2021/search.php:30
+#: 06-01-2021-original/search.php:29 06-01-2021/search.php:29
+#: 13-01-2021/original/search.php:29 13-01-2021/search.php:29
+#: 14-01-2021-original/search.php:29 14-01-2021/search.php:29
+#: 30-12-2020/search.php:29
+msgid "Livre blanc"
+msgstr ""
+
+#: 02-01-2021/search.php:30 04-01-2021/search.php:31
+#: 06-01-2021-original/search.php:30 06-01-2021/search.php:30
+#: 13-01-2021/original/search.php:30 13-01-2021/search.php:30
+#: 14-01-2021-original/search.php:30 14-01-2021/search.php:30
+#: 30-12-2020/search.php:30
+msgid "Parcours"
+msgstr ""
+
+#: 02-01-2021/search.php:33 04-01-2021/search.php:34
+#: 06-01-2021-original/search.php:33 06-01-2021/search.php:33
+#: 13-01-2021/original/search.php:33 13-01-2021/search.php:33
+#: 14-01-2021-original/search.php:33 14-01-2021/search.php:33
+#: 30-12-2020-original/search.php:33 30-12-2020/search.php:33
+msgid "Events"
+msgstr "ÉVÉNEMENTS"
+
+#: 02-01-2021/search.php:34 04-01-2021/search.php:35
+#: 06-01-2021-original/search.php:34 06-01-2021/search.php:34
+#: 13-01-2021/original/search.php:34 13-01-2021/search.php:34
+#: 14-01-2021-original/search.php:34 14-01-2021/search.php:34
+#: 30-12-2020-original/search.php:34 30-12-2020/search.php:34
+msgid "News"
+msgstr "ACTUALITÉS"
+
+#: 02-01-2021/search.php:35 04-01-2021/search.php:36
+#: 06-01-2021-original/search.php:35 06-01-2021/search.php:35
+#: 13-01-2021/original/search.php:35 13-01-2021/search.php:35
+#: 14-01-2021-original/search.php:35 14-01-2021/search.php:35
+#: 30-12-2020-original/search.php:35 30-12-2020/search.php:35
+msgid "Softwares"
+msgstr ""
+
+#: 02-01-2021/search.php:36 04-01-2021/search.php:37
+#: 06-01-2021-original/search.php:36 06-01-2021/search.php:36
+#: 13-01-2021/original/search.php:36 13-01-2021/search.php:36
+#: 14-01-2021-original/search.php:36 14-01-2021/search.php:36
+#: 30-12-2020-original/search.php:36 30-12-2020/search.php:36
+msgid "Companies"
+msgstr "FOURNISSEURS"
+
+#: 02-01-2021/search.php:46 04-01-2021/search.php:47
+#: 06-01-2021-original/search.php:46 06-01-2021/search.php:46
+#: 13-01-2021/original/search.php:46 13-01-2021/search.php:46
+#: 14-01-2021-original/search.php:46 14-01-2021/search.php:46
+#: 30-12-2020-original/search.php:46 30-12-2020/search.php:46
+msgid "You searched for"
+msgstr ""
+
+#: 02-01-2021/search.php:50 04-01-2021/search.php:51
+#: 06-01-2021-original/search.php:50 06-01-2021/search.php:50
+#: 13-01-2021/original/search.php:50 13-01-2021/search.php:50
+#: 14-01-2021-original/search.php:50 14-01-2021/search.php:50
+#: 30-12-2020-original/search.php:50 30-12-2020/search.php:50
+msgid "Displaying"
+msgstr ""
+
+#: 02-01-2021/search.php:50 04-01-2021/search.php:51
+#: 06-01-2021-original/search.php:50 06-01-2021/search.php:50
+#: 13-01-2021/original/search.php:50 13-01-2021/search.php:50
+#: 14-01-2021-original/search.php:50 14-01-2021/search.php:50
+#: 30-12-2020-original/search.php:50 30-12-2020/search.php:50
+msgid "results"
+msgstr ""
+
+#: 02-01-2021/search.php:50 04-01-2021/search.php:51
+#: 06-01-2021-original/search.php:50 06-01-2021/search.php:50
+#: 13-01-2021/original/search.php:50 13-01-2021/search.php:50
+#: 14-01-2021-original/search.php:50 14-01-2021/search.php:50
+#: 30-12-2020-original/search.php:50 30-12-2020/search.php:50
+msgid "New search:"
+msgstr ""
+
+#: 02-01-2021/search.php:58 04-01-2021/search.php:59
+#: 06-01-2021-original/search.php:58 06-01-2021/search.php:58
+#: 13-01-2021/original/search.php:58 13-01-2021/search.php:58
+#: 14-01-2021-original/search.php:58 14-01-2021/search.php:58
+msgid "Trier par"
+msgstr ""
+
+#: 02-01-2021/search.php:60 04-01-2021/search.php:61
+#: 06-01-2021-original/search.php:60 06-01-2021/search.php:60
+#: 13-01-2021/original/search.php:60 13-01-2021/search.php:60
+#: 14-01-2021-original/search.php:60 14-01-2021/search.php:60
+#: 30-12-2020-original/search.php:60 30-12-2020/search.php:60
+msgid "Most Recent "
+msgstr ""
+
+#: 02-01-2021/search.php:110 04-01-2021/search.php:111
+#: 06-01-2021-original/search.php:110 06-01-2021/search.php:110
+#: 13-01-2021/original/search.php:110 13-01-2021/search.php:110
+#: 14-01-2021-original/search.php:110 14-01-2021/search.php:110
+#: 30-12-2020-original/search.php:110 30-12-2020/search.php:110
+msgid "FILTER BY SECTOR"
+msgstr ""
+
+#: 02-01-2021/search.php:125 04-01-2021/search.php:126
+#: 06-01-2021-original/search.php:125 06-01-2021/search.php:125
+#: 13-01-2021/original/search.php:125 13-01-2021/search.php:125
+#: 14-01-2021-original/search.php:125 14-01-2021/search.php:125
+#: 30-12-2020-original/search.php:125 30-12-2020/search.php:125
+msgid "FILTER BY DOMAIN"
+msgstr ""
+
+#: 02-01-2021/search.php:138 04-01-2021/search.php:139
+#: 06-01-2021-original/search.php:138 06-01-2021/search.php:138
+#: 13-01-2021/original/search.php:138 13-01-2021/search.php:138
+#: 14-01-2021-original/search.php:138 14-01-2021/search.php:138
+#: 30-12-2020-original/search.php:138 30-12-2020/search.php:138
+msgid "FILTER BY FUNCTIONS"
+msgstr ""
+
+#: 02-01-2021/search.php:153 04-01-2021/search.php:154
+#: 06-01-2021-original/search.php:153 06-01-2021/search.php:153
+#: 13-01-2021/original/search.php:153 13-01-2021/search.php:153
+#: 14-01-2021-original/search.php:153 14-01-2021/search.php:153
+#: 30-12-2020-original/search.php:153 30-12-2020/search.php:153
+msgid "APPLY FILTERS"
+msgstr ""
+
+#: 02-01-2021/search.php:154 04-01-2021/search.php:155
+#: 06-01-2021-original/search.php:154 06-01-2021/search.php:154
+#: 13-01-2021/original/search.php:154 13-01-2021/search.php:154
+#: 14-01-2021-original/search.php:154 14-01-2021/search.php:154
+#: 30-12-2020-original/search.php:154 30-12-2020/search.php:154
+msgid "CLEAR FILTERS"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/classes/class-twenty-twenty-one-customize.php:80
+msgid "Display Site Title & Tagline"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/classes/class-twenty-twenty-one-customize.php:90
+msgid "Excerpt Settings"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/classes/class-twenty-twenty-one-customize.php:111
+msgid "On Archive Pages, posts show:"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/classes/class-twenty-twenty-one-customize.php:113
+msgid "Summary"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/classes/class-twenty-twenty-one-customize.php:114
+msgid "Full text"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:199
+msgid "Dark Mode support"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:345
+#, php-format
+msgid "Dark Mode: %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/comments.php:63
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:240
+msgid "Page "
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/comments.php:68
+msgid "Older comments"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/comments.php:72
+msgid "Newer comments"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/comments.php:88
+msgid "Leave a comment"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/footer.php:60
+#, php-format
+msgid "Proudly powered by %s."
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:76
+#: 13-01-2021/twentytwentyone/inc/starter-content.php:154
+msgid "Primary menu"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:150
+msgid "Extra small"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:156
+msgid "Small"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:162
+msgid "Normal"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:168
+msgid "Large"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:174
+msgid "Extra large"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:180
+msgid "Huge"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:186
+msgid "Gigantic"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:218
+msgid "Black"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:223
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:107
+msgid "Dark gray"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:228
+msgid "Gray"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:233
+msgid "Green"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:238
+msgid "Blue"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:243
+msgid "Purple"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:248
+msgid "Red"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:253
+msgid "Orange"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:258
+msgid "Yellow"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:263
+msgid "White"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:274
+msgid "Purple to yellow"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:279
+msgid "Yellow to purple"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:284
+msgid "Green to yellow"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:289
+msgid "Yellow to green"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:294
+msgid "Red to yellow"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:299
+msgid "Yellow to red"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:304
+msgid "Purple to red"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:309
+msgid "Red to purple"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:358
+msgid "Footer"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/functions.php:360
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/image.php:46
+#: 13-01-2021/twentytwentyone/template-parts/content/content-page.php:36
+#: 13-01-2021/twentytwentyone/template-parts/content/content-single.php:30
+#: 13-01-2021/twentytwentyone/template-parts/content/content.php:36
+msgid "Page %"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/image.php:59
+#, php-format
+msgid "Published in %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/image.php:68
+#: 13-01-2021/twentytwentyone/image.php:93
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:92
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:135
+#: 13-01-2021/twentytwentyone/template-parts/content/content-page.php:48
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/back-compat.php:42
+#: 13-01-2021/twentytwentyone/inc/back-compat.php:61
+#: 13-01-2021/twentytwentyone/inc/back-compat.php:86
+#, php-format
+msgid ""
+"This theme requires WordPress 5.3 or newer. You are running version %s. "
+"Please upgrade."
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:20
+msgid "Twenty Twenty-One"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:33
+msgid "Large text"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:36
+msgid "A new portfolio default theme for WordPress"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:44
+msgid "Links area"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:48
+msgid "Twitter"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:48
+msgid "Instagram"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:48
+msgid "Dribbble"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:48
+msgid "example@example.com"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:56
+msgid "Media and text article title"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:60
+msgid "Playing in the Sand"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:68
+msgid "Overlapping images"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:80
+msgid "Two images showcase"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:92
+msgid "Overlapping images and text"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:96
+msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:104
+msgid "Portfolio list"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:107
+msgid "Roses Tremieres"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:107
+msgid "Villa with Orange Trees, Nice"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:107
+msgid "In the Bois de Boulogne"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:107
+msgid "The Garden at Bougival"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:107
+msgid "Young Woman in Mauve"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:107
+msgid "Reading"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-patterns.php:114
+msgid "Contact information"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:26
+msgid "Overlap"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:35
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:44
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:53
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:80
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:89
+msgid "Borders"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:62
+msgid "Frame"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:71
+msgid "Dividers"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/block-styles.php:98
+msgid "Thick"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/menu-functions.php:35
+msgid "Open menu"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/starter-content.php:165
+msgid "Secondary menu"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/template-functions.php:132
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/template-functions.php:397
+msgid "This content is password protected. Please enter a password to view."
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:29
+#, php-format
+msgid "Published %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:49
+#: 13-01-2021/twentytwentyone/template-parts/post/author-bio.php:15
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:108
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:152
+#, php-format
+msgid "Categorized as %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:118
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:162
+#, php-format
+msgid "Tagged %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:247
+#, php-format
+msgid "Newer %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/inc/template-tags.php:255
+#, php-format
+msgid "Older %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/search.php:21
+#: 13-01-2021/twentytwentyone/template-parts/content/content-none.php:22
+#, php-format
+msgid "Results for \"%s\""
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/single.php:51
+#, php-format
+msgid "Next %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/single.php:53
+#, php-format
+msgid "Previous %s"
+msgstr ""
+
+#: 13-01-2021/twentytwentyone/template-parts/post/author-bio.php:20
+#, php-format
+msgid "View all of %2$s's posts."
+msgstr ""
+
+#: 15-01-2021/class-wp-bootstrap-navwalker.php:375
+msgid "Add a menu"
+msgstr ""
+
+#: 30-12-2020/search.php:58
+msgid "SORT BY"
+msgstr ""
+
+#~ msgid "Articles"
+#~ msgstr "Des articles"
